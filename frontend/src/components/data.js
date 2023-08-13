@@ -1,0 +1,43 @@
+export const data = [
+  {
+    id: 1,
+    img: "https://i.postimg.cc/8PCzs15X/gato-test.jpg",
+    name: "Andrés Relleno Relleno",
+    country: "Ecuador",
+    bandera: "https://i.postimg.cc/25rTvWFd/ecuador.png",
+    about: "Viajero",
+    profesion: "Data Science",
+    grito: "Relleno",
+  },
+  {
+    id: 2,
+    img: "https://i.postimg.cc/8PCzs15X/gato-test.jpg",
+    name: "Josué Lopez",
+    country: "Venezuela",
+    bandera: "https://i.postimg.cc/XvLLgvQR/venezuela.png",
+    about: "Emprendedor amante de la tecnologia",
+    profesion: "Web Developer",
+    grito: "Hakuna Matata",
+  },
+
+  {
+    id: 3,
+    img: "https://i.postimg.cc/8PCzs15X/gato-test.jpg",
+    name: "Daniel Relleno Relleno",
+    country: "Chile",
+    bandera: "https://i.postimg.cc/HkG6YRrh/chille.png",
+    about: "Chico Ciencia de Datos",
+    profesion: "Data Science",
+    grito: "Relleno",
+  },
+  {
+    id: 4,
+    img: "https://i.postimg.cc/8PCzs15X/gato-test.jpg",
+    name: "Aracely Cruz Del ángel",
+    country: "México",
+    bandera: "https://i.postimg.cc/d10BNKfL/mexico.png",
+    about: "Desarrolladora web, team café, me encantan los gatos",
+    profesion: "Web Developer",
+    grito: "Miau",
+  },
+];

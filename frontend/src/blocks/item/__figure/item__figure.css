@@ -1,0 +1,9 @@
+.item__figure {
+  position: relative;
+  border: red solid 1px;
+  border-radius: 50%;
+  margin: 0 auto;
+  width: 250px;
+  height: 350px;
+  overflow: hidden;
+}

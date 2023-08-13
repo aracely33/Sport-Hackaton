@@ -1,0 +1,10 @@
+.item {
+  position: relative;
+  margin: 0 auto 5px auto;
+  border: green solid 1px;
+  width: 320px;
+}
+
+.item:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
