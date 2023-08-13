@@ -1,9 +1,17 @@
-@import url(./blocks/main/main.css);
+/* header */
 @import url(./blocks/header/header.css);
-@import url(./blocks/footer/footer.css);
+/* main */
+@import url(./blocks/main/main.css);
+/* footer */
 @import url(./blocks/container-items/container-items.css);
+@import url(./blocks/footer/footer.css);
 @import url(./blocks/item/item.css);
-@import url(./blocks/item/__figure/item__figure.css);
-@import url(./blocks/item/__image/item__image.css);
-@import url(./blocks/item/__person-name/item__person-name.css);
+@import url(./blocks/item/__burbuja/item__persona-burbuja.css);
 @import url(./blocks/item/__person-description/item__person-description.css);
+@import url(./blocks/item/__person-name/item__person-name.css);
+@import url(./blocks/item/__image/item__image.css);
+@import url(./blocks/item/__figure/item__figure.css);
+@import url(./blocks/item/__burbuja/_active/animation-moprh.css);
+@import url(./blocks/item/__burbuja/_active/burbuja_1.css);
+@import url(./blocks/item/__burbuja/_active/burbuja_2.css);
+@import url(./blocks/item/__burbuja/_active/burbuja_3.css);
