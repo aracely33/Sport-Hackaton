@@ -1,0 +1,9 @@
+@import url(./blocks/main/main.css);
+@import url(./blocks/header/header.css);
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/container-items/container-items.css);
+@import url(./blocks/item/item.css);
+@import url(./blocks/item/__figure/item__figure.css);
+@import url(./blocks/item/__image/item__image.css);
+@import url(./blocks/item/__person-name/item__person-name.css);
+@import url(./blocks/item/__person-description/item__person-description.css);
