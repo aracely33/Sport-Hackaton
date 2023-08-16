@@ -1,5 +1,7 @@
 .footer {
+  width: 100%;
   min-width: 320px;
-  max-width: 1440px;
   background-color: #caccd1;
 }
+
+/* TODO Eliminar min y max si arreglo los pading extraños */

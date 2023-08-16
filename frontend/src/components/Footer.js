@@ -1,42 +1,82 @@
+import { motion, Variants } from "framer-motion";
 import React from "react";
 import { data } from "./data";
 
-function ProductList() {
+function Footer() {
   return (
     <>
       <footer className="footer">
-        <h1 style={{ color: "white" }}>Colaboradores</h1>
-
-        <div className="container-items">
+        <motion.h1 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1 }} className="footer__titulo">
+          Colaboradores
+        </motion.h1>
+        <section className="container-items">
           {data.map((person) => (
-            <div key={person.id} className="item">
-              <h2 style={{ color: "white" }}>{person.name}</h2>
+            <motion.article key={person.id} className="item">
+              <motion.h2 style={{ color: "white" }} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }}>
+                {person.name}
+              </motion.h2>
               <figure className="item__figure">
-                <img className="item__image" src={person.img} alt={person.name} />
+                <motion.img initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }} className="item__image" src={person.img} alt={person.name} />
               </figure>
-              <div className="item__persona-burbuja burbuja_1">
-                <img className="item__burbuja-bandera" src={person.bandera} />
+              <motion.div
+                drag
+                dragConstraints={{
+                  top: -50,
+                  left: -50,
+                  right: 50,
+                  bottom: 50,
+                }}
+                initial={{ opacity: 0, scale: 0 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 4 }}
+                className="item__persona-burbuja burbuja_1"
+              >
+                <motion.img className="item__burbuja-bandera" src={person.bandera} />
                 <p className="item__burbuja-parrafo">{person.country}</p>
-              </div>
-              <div className="item__persona-burbuja burbuja_2">
+              </motion.div>
+              <motion.div
+                drag
+                dragConstraints={{
+                  top: -50,
+                  left: -50,
+                  right: 50,
+                  bottom: 50,
+                }}
+                initial={{ opacity: 0, scale: 0 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 6 }}
+                className="item__persona-burbuja burbuja_2"
+              >
                 <h3 className="item__burbuja-titulo">Profesión</h3>
                 <p>{person.profesion}</p>
-              </div>
-              <div className="item__persona-burbuja burbuja_3">
+              </motion.div>
+              <motion.div
+                drag
+                dragConstraints={{
+                  top: -50,
+                  left: -50,
+                  right: 50,
+                  bottom: 50,
+                }}
+                initial={{ opacity: 0, scale: 0 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 8 }}
+                className="item__persona-burbuja burbuja_3"
+              >
                 <h3 className="item__burbuja-titulo">Grito de Guerra</h3>
                 <p className="item__burbuja-parrafo">{person.grito}</p>
-              </div>
+              </motion.div>
               <div style={{ color: "white" }} className="item__person-name">
                 <h4 style={{ color: "white" }}>Sobre Mi</h4>
                 <p style={{ color: "white" }} className="item__person-description">
                   {person.about}
                 </p>
               </div>
-            </div>
+            </motion.article>
           ))}
-        </div>
+        </section>
       </footer>
     </>
   );
 }
-export default ProductList;
+export default Footer;
