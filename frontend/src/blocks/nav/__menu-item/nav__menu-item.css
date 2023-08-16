@@ -1,0 +1,13 @@
+.nav__menu-item {
+  font-size: 18px;
+  margin: 0 10px;
+  line-height: 80px;
+  text-transform: uppercase;
+  width: max-content;
+}
+
+@media screen and (max-width: 768px) {
+  .nav__menu-item {
+    line-height: 70px;
+  }
+}

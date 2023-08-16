@@ -1,0 +1,15 @@
+.nav__toggle {
+  color: white;
+  background: none;
+  border: none;
+  font-size: 30px;
+  padding: 0 20px;
+  line-height: 60px;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .nav__toggle {
+    display: block;
+  }
+}

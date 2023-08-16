@@ -1,11 +1,13 @@
 .header {
   background-color: #041827;
+  min-height: 80px;
   padding-left: 32px;
   padding-right: 32px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .header {
+    height: 60px;
     padding-left: 40px;
     padding-right: 40px;
   }
