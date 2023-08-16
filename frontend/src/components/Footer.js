@@ -21,10 +21,10 @@ function Footer() {
               <motion.div
                 drag
                 dragConstraints={{
-                  top: -50,
-                  left: -50,
-                  right: 50,
-                  bottom: 50,
+                  top: -20,
+                  left: -20,
+                  right: 20,
+                  bottom: 20,
                 }}
                 initial={{ opacity: 0, scale: 0 }}
                 whileInView={{ opacity: 1, scale: 1 }}
@@ -37,10 +37,10 @@ function Footer() {
               <motion.div
                 drag
                 dragConstraints={{
-                  top: -50,
-                  left: -50,
-                  right: 50,
-                  bottom: 50,
+                  top: -20,
+                  left: -20,
+                  right: 20,
+                  bottom: 20,
                 }}
                 initial={{ opacity: 0, scale: 0 }}
                 whileInView={{ opacity: 1, scale: 1 }}
@@ -53,10 +53,10 @@ function Footer() {
               <motion.div
                 drag
                 dragConstraints={{
-                  top: -50,
-                  left: -50,
-                  right: 50,
-                  bottom: 50,
+                  top: -20,
+                  left: -20,
+                  right: 20,
+                  bottom: 20,
                 }}
                 initial={{ opacity: 0, scale: 0 }}
                 whileInView={{ opacity: 1, scale: 1 }}
