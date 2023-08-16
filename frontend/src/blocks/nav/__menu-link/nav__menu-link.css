@@ -1,0 +1,16 @@
+.nav__menu-link {
+  padding: 8px 12px;
+  border-radius: 3px;
+}
+
+.nav__menu-link:hover {
+  background-color: burlywood;
+  transition: 1s;
+}
+
+@media screen and (max-width: 768px) {
+  .nav__menu-link:hover {
+    background: none;
+    color: blue;
+  }
+}
