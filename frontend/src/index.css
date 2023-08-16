@@ -2,6 +2,7 @@
 @import url(./blocks/header/header.css);
 /* main */
 @import url(./blocks/main/main.css);
+@import url(./blocks/main/articulo/main__articulo.css);
 /* footer */
 @import url(./blocks/container-items/container-items.css);
 @import url(./blocks/footer/footer.css);

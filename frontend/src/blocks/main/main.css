@@ -1,12 +1,3 @@
 .main {
-  max-width: 1280px;
-  background-color: #041827;
-  min-height: 300px;
-}
-
-@media screen and (max-width: 321px) {
-  .main {
-    max-width: 320px;
-    margin: 0 0 38.25px 0;
-  }
+  background-color: #f3f4f7;
 }

@@ -1,0 +1,24 @@
+.main__articulo {
+  border: red solid 1px;
+  word-wrap: break-word;
+}
+
+.main__articulo-01 {
+  border: red solid 1px;
+  margin-bottom: 20px;
+}
+
+.main__articulo-02 {
+  border: red solid 1px;
+  margin-bottom: 20px;
+}
+
+.main__articulo-03 {
+  border: red solid 1px;
+  margin-bottom: 20px;
+}
+
+.soy {
+  border: red solid 1px;
+  margin-bottom: 20px;
+}
