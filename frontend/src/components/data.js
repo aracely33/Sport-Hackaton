@@ -12,17 +12,6 @@ export const data = [
   {
     id: 2,
     img: "https://i.postimg.cc/8PCzs15X/gato-test.jpg",
-    name: "Josué Lopez",
-    country: "Venezuela",
-    bandera: "https://i.postimg.cc/XvLLgvQR/venezuela.png",
-    about: "Emprendedor amante de la tecnologia",
-    profesion: "Web Developer",
-    grito: "Hakuna Matata",
-  },
-
-  {
-    id: 3,
-    img: "https://i.postimg.cc/8PCzs15X/gato-test.jpg",
     name: "Daniel Relleno Relleno",
     country: "Chile",
     bandera: "https://i.postimg.cc/HkG6YRrh/chille.png",
@@ -31,7 +20,7 @@ export const data = [
     grito: "Relleno",
   },
   {
-    id: 4,
+    id: 3,
     img: "https://i.postimg.cc/8PCzs15X/gato-test.jpg",
     name: "Aracely Cruz Del ángel",
     country: "México",
@@ -39,5 +28,15 @@ export const data = [
     about: "Desarrolladora web, team café, me encantan los gatos",
     profesion: "Web Developer",
     grito: "Miau",
+  },
+  {
+    id: 4,
+    img: "https://i.postimg.cc/8PCzs15X/gato-test.jpg",
+    name: "Josué Lopez",
+    country: "Venezuela",
+    bandera: "https://i.postimg.cc/XvLLgvQR/venezuela.png",
+    about: "Emprendedor amante de la tecnologia",
+    profesion: "Web Developer",
+    grito: "Hakuna Matata",
   },
 ];

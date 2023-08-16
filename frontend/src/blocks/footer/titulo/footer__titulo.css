@@ -4,5 +4,5 @@
   font-weight: 900;
   text-align: center;
   width: 100%;
-  border: red solid 1px;
+  text-shadow: 0 0 10px green;
 }

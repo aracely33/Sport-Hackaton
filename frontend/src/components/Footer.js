@@ -66,11 +66,9 @@ function Footer() {
                 <h3 className="item__burbuja-titulo">Grito de Guerra</h3>
                 <p className="item__burbuja-parrafo">{person.grito}</p>
               </motion.div>
-              <div style={{ color: "white" }} className="item__person-name">
-                <h4 style={{ color: "white" }}>Sobre Mi</h4>
-                <p style={{ color: "white" }} className="item__person-description">
-                  {person.about}
-                </p>
+              <div className="item__person-name">
+                <h4>Sobre Mi</h4>
+                <p className="item__person-description">{person.about}</p>
               </div>
             </motion.article>
           ))}

@@ -1,5 +1,15 @@
 .container-items {
+  margin: 0 auto;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  row-gap: 120px;
+  max-width: 1031px;
+}
+
+@media screen and (min-width: 675px) {
+  .container-items {
+    column-gap: 10%;
+    row-gap: 120px;
+  }
 }
