@@ -1,6 +1,10 @@
 .analisis_texto {
   line-height: 1.5;
   padding: 30px 20px 10px 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .analisis_img {
