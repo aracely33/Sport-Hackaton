@@ -1,7 +1,10 @@
 .main__titulo {
-  border: red solid 1px;
+  margin: 0 auto 30px auto;
+  text-align: center;
+  text-align: 32px;
 }
 
 .main__texto {
-  margin: 0 auto 10px auto;
+  margin: 0 auto 15px auto;
+  line-height: 1.5;
 }

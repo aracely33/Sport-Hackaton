@@ -1,3 +1,4 @@
+import Analisis from "./Analisis";
 import Introduccion from "./Introduccion";
 
 function Main() {
@@ -5,6 +6,7 @@ function Main() {
     <>
       <main className="main">
         <Introduccion />
+        <Analisis />
       </main>
     </>
   );
