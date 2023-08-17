@@ -5,6 +5,7 @@
 }
 
 .main__texto {
+  padding: 30px 20px 10px 20px;
   margin: 0 auto 15px auto;
   line-height: 1.5;
 }

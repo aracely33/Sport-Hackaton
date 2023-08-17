@@ -1,4 +1,7 @@
 .intro__imagen {
-  margin: 10px auto;
+  display: block;
+  text-align: center;
+  margin: 20px auto;
   width: 100%;
+  max-width: 800px;
 }

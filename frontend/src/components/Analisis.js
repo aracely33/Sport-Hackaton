@@ -38,47 +38,48 @@ function Analisis() {
             Por lo tanto, a partir del gráfico se puede observar lo siguiente:
           </motion.h2>
           <motion.img initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 4 }} className="analisis__img" src="https://i.postimg.cc/KYZRV0Gf/explicando.png" />
-          <motion.div className="analisis_tarjeta">
-            <motion.p className="analisis_texto">
-              Cuando un equipo se encuentra en una desventaja alta (menor a -150) la probabilidad de victoria o empate es muy baja y es casi despreciable el hecho de jugar de local o visitante.
-            </motion.p>
-            <motion.img className="analisis__img" src="https://i.postimg.cc/rmtpv3rB/bajo-posibilidad.png" />
-          </motion.div>
+          <article className="analisis_tarjeta_container">
+            <motion.div className="analisis_tarjeta">
+              <motion.p className="analisis_texto">
+                Cuando un equipo se encuentra en una desventaja alta (menor a -150) la probabilidad de victoria o empate es muy baja y es casi despreciable el hecho de jugar de local o visitante.
+              </motion.p>
+              <motion.img className="analisis__img" src="https://i.postimg.cc/rmtpv3rB/bajo-posibilidad.png" />
+            </motion.div>
+            <motion.div className="analisis_tarjeta" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }}>
+              <motion.p className="analisis_texto">
+                Cuando la desventaja es moderada (entre -100 y -50) la probabilidad de victoria o empate para cualquier equipo es menor al 50%. Sin embargo, es más probable que el equipo local
+                obtengaun empate que un victoria, mientras que lo menos probable es que el equipo visitante obtenga una victoria si está en desventaja.
+              </motion.p>
+              <motion.img initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 4 }} className="analisis__img" src="https://i.postimg.cc/gkLKg2js/casiperno.png" />
+            </motion.div>
+            <motion.div className="analisis_tarjeta" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }}>
+              <motion.p className="analisis_texto">
+                Cuando la desventaja es nula (igual a 0) observamos que las probabilidades de empate de ambos equipos o victoria del equipo visitante son similares entre sí pero continúan por debajo
+                del 50%. La probabilidad de victoria del equipo local, en cambio, se acerca al 50%, por lo que la localía mejora la probabilidad de victoria.
+              </motion.p>
+              <motion.img initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 4 }} className="analisis__img" src="https://i.postimg.cc/yYRGrH8m/50.png" />
+            </motion.div>
 
-          <motion.div className="analisis_tarjeta" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }}>
-            <motion.p className="analisis_texto">
-              Cuando la desventaja es moderada (entre -100 y -50) la probabilidad de victoria o empate para cualquier equipo es menor al 50%. Sin embargo, es más probable que el equipo local obtengaun
-              empate que un victoria, mientras que lo menos probable es que el equipo visitante obtenga una victoria si está en desventaja.
-            </motion.p>
-            <motion.img initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 4 }} className="analisis__img" src="https://i.postimg.cc/gkLKg2js/casiperno.png" />
-          </motion.div>
+            <motion.div className="analisis_tarjeta" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }}>
+              <motion.p className="analisis_texto">
+                Cuando la ventaja del equipo es moderada (entre 50 y 100) la probabilidad de victoria del equipo local es más alta (entre 70 y 90% aproximadamente) que otro resultado, mientras que la
+                probabilidad de un empate del mismo equipo es la más baja (entre 5 y 20% aproximadamente).
+              </motion.p>
+              <motion.img initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 4 }} className="analisis__img" src="https://i.postimg.cc/C10tgfBw/patea-balom.png" />
+            </motion.div>
 
-          <motion.div className="analisis_tarjeta" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }}>
-            <motion.p className="analisis_texto">
-              Cuando la desventaja es nula (igual a 0) observamos que las probabilidades de empate de ambos equipos o victoria del equipo visitante son similares entre sí pero continúan por debajo del
-              50%. La probabilidad de victoria del equipo local, en cambio, se acerca al 50%, por lo que la localía mejora la probabilidad de victoria.
-            </motion.p>
-            <motion.img initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 4 }} className="analisis__img" src="https://i.postimg.cc/yYRGrH8m/50.png" />
-          </motion.div>
-
-          <motion.div className="analisis_tarjeta" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }}>
-            <motion.p className="analisis_texto">
-              Cuando la ventaja del equipo es moderada (entre 50 y 100) la probabilidad de victoria del equipo local es más alta (entre 70 y 90% aproximadamente) que otro resultado, mientras que la
-              probabilidad de un empate del mismo equipo es la más baja (entre 5 y 20% aproximadamente).
-            </motion.p>
-            <motion.img initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 4 }} className="analisis__img" src="https://i.postimg.cc/C10tgfBw/patea-balom.png" />
-          </motion.div>
-          <motion.div className="analisis_tarjeta" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }}>
-            <motion.p className="analisis_texto">
-              Cuando la ventaja del equipo es alta (mayor a 150) la probabilidad de victoria tanto del equipo local como del visitante es muy alta (entre 90 y 100% aproximadamente), mientras que la
-              probabilidad de empate es muy baja (menor al 5% aproximadamente).
-            </motion.p>
-            <motion.img initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 4 }} className="analisis__img" src="https://i.postimg.cc/K8NJdvSM/pngwing-com.png" />
-          </motion.div>
+            <motion.div className="analisis_tarjeta" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }}>
+              <motion.p className="analisis_texto">
+                Cuando la ventaja del equipo es alta (mayor a 150) la probabilidad de victoria tanto del equipo local como del visitante es muy alta (entre 90 y 100% aproximadamente), mientras que la
+                probabilidad de empate es muy baja (menor al 5% aproximadamente).
+              </motion.p>
+              <motion.img initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 4 }} className="analisis__img" src="https://i.postimg.cc/K8NJdvSM/pngwing-com.png" />
+            </motion.div>
+          </article>
         </motion.article>
         <motion.article initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 6 }}>
           <motion.h3 className="analisis__subtitle">Conclusion</motion.h3>
-          <motion.img className="analisis__img" src="https://i.postimg.cc/pTnQXP7k/conclusion.png" />
+          <motion.img className="analisis_img" src="https://i.postimg.cc/pTnQXP7k/conclusion.png" />
           <motion.p className="analisis_texto">
             En general, se puede decir que la localía otorga una ventaja importante en los partidos, contribuyendo a aumentar las probabilidades de victoria cuando el equipo se encuentra equilibrado o
             en ventaja frente a su adversario o a aumentar la probabilidad de empate cuando el equipo se encuentra en desventaja frente a su adversario. De manera similar, se puede decir que siempre

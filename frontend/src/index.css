@@ -20,6 +20,7 @@
 @import url(./blocks/analisis/__texto/analisis_texto.css);
 @import url(./blocks/analisis/__img/analisis__img.css);
 @import url(./blocks/analisis/__tarjeta/analisis_tarjeta.css);
+@import url(./blocks/analisis/__continer/analisis_tarjeta_container.css);
 
 /* footer */
 @import url(./blocks/container-items/container-items.css);
