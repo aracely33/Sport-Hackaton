@@ -10,7 +10,7 @@ function Header() {
   return (
     <>
       <div className="header">
-        <nav className="nav">
+        {/* <nav className="nav">
           <a href="#" className="logo nav-link">
             Logo
           </a>
@@ -38,7 +38,7 @@ function Header() {
               </a>
             </li>
           </ul>
-        </nav>
+        </nav> */}
       </div>
     </>
   );

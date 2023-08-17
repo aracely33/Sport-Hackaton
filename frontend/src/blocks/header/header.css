@@ -12,3 +12,24 @@
     padding-right: 40px;
   }
 }
+.container__title {
+  font-size: 60px;
+  position: absolute;
+  top: 70px;
+  width: 500px;
+  text-shadow: 0 0 10px white;
+}
+
+@media screen and (max-width: 453px) {
+  .container__title {
+    font-size: 30px;
+    width: 300px;
+  }
+}
+.container__cabezera {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  min-width: 320;
+  height: 700px;
+}
