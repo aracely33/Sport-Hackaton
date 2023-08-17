@@ -1,0 +1,9 @@
+.analisis_tarjeta {
+  max-width: 350px;
+  min-width: 320px;
+  max-height: 700px;
+  border-radius: 5%;
+  box-shadow: 0px 0px 10px black;
+  margin: 50px auto 20px auto;
+  object-fit: contain;
+}

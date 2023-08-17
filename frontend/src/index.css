@@ -14,6 +14,14 @@
 @import url(./blocks/main/main.css);
 @import url(./blocks/main/articulo/main__container_articulo.css);
 @import url(./blocks/main/articulo/__titulo/main__titulo.css);
+@import url(../src/blocks/main/introducciom/_imagen/intro__imagen.css);
+@import url(./blocks/analisis/analisis.css);
+@import url(./blocks/analisis/__title/analisis__titulo.css);
+@import url(./blocks/analisis/__texto/analisis_texto.css);
+@import url(./blocks/analisis/__img/analisis__img.css);
+@import url(./blocks/analisis/__tarjeta/analisis_tarjeta.css);
+@import url(./blocks/analisis/__continer/analisis_tarjeta_container.css);
+
 /* footer */
 @import url(./blocks/container-items/container-items.css);
 @import url(./blocks/footer/footer.css);
