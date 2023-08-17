@@ -1,40 +1,5 @@
-body {
-  border: rebeccapurple solid 2px;
-}
-/* .root {
-  margin: auto;
-  padding: 90px 20px 0;
-  background: #000000;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-@media screen and (max-width: 768px) {
-  .root {
-    padding: 70px;
-  }
-}
-
-@media screen and (max-width: 321px) {
-  .root {
-    padding: 28px 0 36px 0;
-  }
-} */
-
-:root {
-  --texto-color: #f5f5f5;
-  --hover-color: #52565e;
-  --fondo-color: #f3f4f7;
-  --segundo-fomdo-color: #caccd1;
-  --grande-fuente: 2.5rem;
-  --normal-fuente: 2rem;
-  --neon-box-shadow: 0 0 0.5rem #52565e;
-  --h2-fuente: 3rem;
-  --fuente-neon-shadow: 0 0 10px rgba(149, 165, 166), 0 0 20px rgba(149, 165, 166), 0 0 30px rgba(149, 165, 166), 0 0 40px rgba(149, 165, 166), 0 0 70px rgba(149, 165, 166),
-    0 0 80px rgba(149, 165, 166), 0 0 100px rgba(149, 165, 166), 0 0 150px rgba(149, 165, 166);
+.root {
+  padding: 0 30px;
+  max-width: 1280px;
+  margin: 0 auto;
 }

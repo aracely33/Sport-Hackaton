@@ -12,7 +12,7 @@ function Footer() {
         <section className="container-items">
           {data.map((person) => (
             <motion.article key={person.id} className="item">
-              <motion.h2 style={{ color: "white" }} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }}>
+              <motion.h2  initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }}>
                 {person.name}
               </motion.h2>
               <figure className="item__figure">

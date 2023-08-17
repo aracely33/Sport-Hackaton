@@ -1,0 +1,21 @@
+.analisis__titulo {
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 33px;
+  color: white;
+}
+
+.analisis__subtitle {
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  color: white;
+}

@@ -26,8 +26,11 @@ html {
    */
 
 body {
-  margin: 0;
   font-family: sans-serif;
+  padding: 0 30px;
+  max-width: 1280px;
+  margin: 0 auto;
+  background: linear-gradient(to bottom, #fff, #388, #2d32c8, #bc2502, #162f2c);
 }
 
 /**

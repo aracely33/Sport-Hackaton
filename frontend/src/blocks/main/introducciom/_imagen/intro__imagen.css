@@ -1,0 +1,7 @@
+.intro__imagen {
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 800px;
+}
